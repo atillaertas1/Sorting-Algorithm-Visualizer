@@ -1,69 +1,84 @@
-# React + TypeScript + Vite
+-----
+![screenshoot](image.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨ Features
 
-Currently, two official plugins are available:
+  * **Multiple Algorithm Support:** Currently visualizes **Selection Sort** and **Bubble Sort** algorithms. (More can be added in the future\!)
+  * **Step-by-Step Visualization:** Follow the algorithm's progress with colorful bars and smooth animations.
+  * **Code Highlighting:** See the corresponding lines of code highlighted in real-time with each visual step, helping you connect the visuals to the logic.
+  * **Detailed Info Panel:** Access comprehensive information about each algorithm, including its time/space complexity, working principles, advantages, and disadvantages.
+  * **Interactive Controls:** Adjust animation speed, step forward/backward through the algorithm, or let it play automatically.
+  * **Random Array Generation:** Generate new random arrays with a single click to experiment with different scenarios.
+  * **Modern Tech Stack:** Built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Framer Motion**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-----
 
-## Expanding the ESLint configuration
+## 🚀 Quick Start
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+To get this project up and running on your local machine, follow these steps:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1.  **Clone the Repository:**
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+    ```bash
+    git clone https://github.com/atillaertas1/sorting-algorithm-visualizer.git
+    cd sorting-algorithm-visualizer
+    ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2.  **Install Dependencies:**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+3.  **Start the Development Server:**
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+    The application should open in your browser, typically at `http://localhost:5173`.
+
+-----
+
+## 🛠️ Technologies Used
+
+  * **React**: A JavaScript library for building user interfaces.
+  * **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript, enhancing code quality and scalability.
+  * **Vite**: A fast and modern build tool that provides an extremely quick development server.
+  * **Tailwind CSS**: A utility-first CSS framework that enables rapid UI development with pre-defined classes.
+  * **Framer Motion**: A powerful and easy-to-use animation library for React.
+  * **React Icons**: Provides a wide collection of popular icons as React components.
+  * **Classnames**: A tiny utility for conditionally joining CSS class names.
+
+-----
+
+## 💡 How to Contribute
+
+This project is open-source, and we welcome your contributions\! If you find a bug or have an idea for a new feature, here's how you can help:
+
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/new-algorithm`).
+3.  Make your changes and commit them (`git commit -m 'feat: Add new algorithm'`).
+4.  Push your branch (`git push origin feature/new-algorithm`).
+5.  Open a Pull Request.
+
+Please consider reviewing the `CODE_OF_CONDUCT.md` file (if you add one).
+
+-----
+
+## 📜 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+-----
+
+## 📞 Contact
+
+  * **Your Name/Username** - [Atilla](https://github.com/atillaertas1)
+  * **Project Link:** [https://github.com/atillaertas1/sorting-algorithm-visualizer]
+
+-----
