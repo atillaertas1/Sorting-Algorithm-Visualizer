@@ -78,7 +78,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## 📞 Contact
 
-  * **Your Name/Username** - [Atilla](https://github.com/atillaertas1)
+  * **Atilla Ertas** - [Atilla](https://github.com/atillaertas1)
   * **Project Link:** [https://github.com/atillaertas1/sorting-algorithm-visualizer]
 
 -----
